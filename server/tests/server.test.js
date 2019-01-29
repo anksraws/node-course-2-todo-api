@@ -85,7 +85,7 @@ text: 'first test todo'
  	}); 
  }) ;
 
- it('shuld return 4404 if todo nt found', (done) => {
+ it('shuld return 4404 if todo not found', (done) => {
  	var hexId = new ObjectID().toHexString();
 
  	request(app)
